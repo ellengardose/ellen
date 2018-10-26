@@ -1,0 +1,151 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char choice1;
+	cout<<"Preview:"<<endl;
+	cout<<""<<endl;
+	cout<<"Year 2001, 7th of November, 4:35 in the afternoon. Exactly a week ago, a group of evil pirates, the Badass Ocean Dominator, popularly known as The Bodies, conquered the Mislaid Camelot. Mislaid Camelot is the village where you lived in and spent most of your life."<<endl;
+	cout<<""<<endl;
+	cout<<"The Golden Pieces and The Bodies 1:"<<endl;
+	cout<<"Escape"<<endl;
+	cout<<""<<endl;
+	cout<<"Year 2001, 1st of November, Sunday, 1:18 in the afternoon, the  present time. In the humble village of Mislaid Camelot, the sun is shining brightly but the cold breeze of air makes the day friendly for everyone. The little children are playing in the plaza not minding the dirt that they can get from laying on the muddy grass. The lads are busy recreating their houses by repairing the roofs and repainting the fences, while the ladies are busy doing the household chores.  And you? You are just sitting on the front porch of your house, observing everything in the Mislaid Camelot. Everything seems to be fine and alright. What a perfect day indeed."<<endl;
+	cout<<""<<endl;
+	cout<<"Not until a loud blast appear in the midst of busyness. Everyone is so shocked and terrified, including you. Everyone stopped what they are doing and curiously find out where does that loud blast came from. Based from what you have observed and the large number of people going back and forth right from that place, it came from the port found at the border of Mislaid Camelot."<<endl;
+	cout<<""<<endl;
+	cout<<"You stand up and ready yourself to go to the port and investigate what had happened. Being an inquisitive person, you wouldn't want to miss this case."<<endl;
+	cout<<""<<endl;
+	cout<<"As soon as you got out of your house, out of nowhere, a thick blinding smoke started to cover the whole village. Everyone is coughing in agony and trying their best to escape from that smoke. Everyone is complaining that their eyes hurt and they cannot see clearly. So as you. But you still managed to walk and meddle with your fellow villagers to help them especially the little children."<<endl;
+	cout<<""<<endl;
+	cout<<"Luckily, the thick blinding smoke is slowly vanishing and leaving everyone in triumph. But that delightedness also vanished instantly when a group of strange looking and unfamiliar people appear in front of everyone."<<endl;
+	cout<<""<<endl;
+	cout<<"They look horrible and scary. The little children got scared and hide behind their parents. Everyone is wondering for who these people are."<<endl;
+	cout<<""<<endl;
+	cout<<"Except for you. No,they are not unfamiliar. You know them since you were young. Who would have thought that they're real? You thought that they are just the main antagonist in a comic book that you are fond of reading."<<endl;
+	cout<<""<<endl;
+	cout<<"But here they are, alive and kicking. You know this isn't just a prank, practical joke, costume party, or whatever. They are real. They are the Badass Ocean Dominator! They are the Bodies!"<<endl;
+	cout<<""<<endl;
+	cout<<"They are the most dangerous and horrifying people on earth. They are also the greediest one. You know that their intention is to gather all the treasures that the Mislaid Camelot have. Mislaid Camelot is known for having the only essential treasure in the world: The Golden Pieces. And also knowing the people of Mislaid Camelot, they will never let these evils to get the Golden Pieces."<<endl;
+	cout<<""<<endl;
+	cout<<"The Mislaid  Camelot's people are in danger! Everyone is in danger! Were you be able to save the Mislaid Camelot from the Bodies?"<<endl;
+	cout<<""<<endl;
+   cout<<"(Type 'A' for the instruction and type 'B' to start your adventure.)"<<endl;
+   cout<<""<<endl;
+   cout<<"A.Help"<<endl;
+   cout<<"B.Start"<<endl;
+   cin>>choice1;
+   cout<<choice1;
+   
+   switch(choice1) {
+      case 'A' :
+         cout << "You just have to choose between the two options that the game will show you in every situation. Just type 'A' if you choose the first option and type 'B' if you choose the second option." << endl; 
+         break;
+      case 'B' :
+         cout << "Your head hurts as if you've slept continuously for a couple of days or more. It really hurts but you still managed to get up from that cold ground where you were lying. You open your eyes and the bright light from the old fluorescent lamp in the ceiling welcomes you. You've noticed that you're in an unfamiliar room, alone. No, this isn't a room. This is a cell. No one is around. Nothing is found in that empty cell except for a hammer found at the corner of that cell. What will you do with that hammer?" << endl;
+		 cout<<""<<endl;
+		 cout<<"A.Pick it up."<<endl;
+	  cout<<"B.Ignore it."<<endl;
+	  break;
+	  
+	  char choice2;
+	  cin>>choice2;
+	  cout<<choice2;
+	  
+      switch(choice2){
+	  	case 'A':
+		  cout<<"You pick up the hammer. You've noticed that the door of the cell is unlocked. It is an opportunity for you to escape. You open the door carefully without creating any noise and went outside."<<endl;
+		  cout<<"You walk and follow the straight path. Meters away from you there are two paths that you need to choose from. What path will you choose?"<<endl;
+		  cout<<""<<endl;
+		  cout<<"A.Right path"<<endl;
+		  cout<<"B. Left path"<<endl;
+		  break;
+		  
+		  char choice3;
+		  cin>>choice3;
+		  cout<<choice3;
+		  
+		  switch(choice3){
+		  	case 'A':
+			  cout<<"You choose the right path and walk through it. It leads you to a room. It is unlocked but you don't know what's inside that room. Will you go inside?"<<endl;
+			  cout<<""<<endl;
+			  cout<<"A.Yes, I will go inside."<<endl;
+			  cout<<"B.No, I will go back and choose the left path instead."<<endl;
+			  break;
+			  
+			  char choice4;
+			  cin>>choice4;
+			  cout<<choice4;
+			  
+			switch(choice4){
+			  	case 'A':
+				  cout<<"You open the door. The room is so dark that you can't see what's in there. You stepped inside. As soon as you're inside that room. The door behind you automatically closed on its own.  You tried to push and open it but it can't. A panic started to arise from you because it is so dark and you can't see anything. But you choose to ignore it. You proceed in finding the switch of the light by running your hands on the wall. Luckily, you found it. You turn on the lights and you can see everything now. There's a black door at the back of the room. Will you go in there?"<<endl;
+				  cout<<""<<endl;
+				  cout<<"A. Yes, I will open the black door."<<endl;
+				  cout<<"B. No, I will scan the whole room first."<<endl;
+				  break;
+				  
+				  char choice5;
+				  cin>>choice5;
+				  cout<<choice5;
+				  
+				  switch(choice5){
+				  	case 'A':
+					  cout<<"You open the black door. It leads you to a forest. A forest inside a room? No. It seems that you're not in that place anymore. You are outside now. You scan the whole building from where you're standing. It is an abandoned hospital. So you've escaped that place! Congratulations! Now, it's time for you to find and defeat the Bodies! To be continued..."<<endl;
+					  break;
+					  case 'B':
+					  cout<<"You started to scan the whole room. You found nothing. Leaving you no choice, you open the black door. It leads you to a forest. A forest inside a room? No. It seems that you're not in that place anymore. You are outside now. You scan the whole building from where you're standing. It is an abandoned hospital. So you've escaped that place! Congratulations! Now, it's time for you to find and defeat the Bodies! To be continued..."<<endl;
+					  break;
+				  }
+				  case 'B':
+				  cout<<"You go back to that intersection and you chose the left path instead. You started to walk through it. Minutes later, you reached the end of the path. It is a room without a door. Leaving you no choice,you enter in that room. After walking through the darkness, you found out that it isn't a room. It is a passageway going to the outside of that building."<<endl;
+				  cout<<"The darkness reflected before is caused by the absence of sunlight. It is already evening and there is no sources of light except the bright moon and the starts. You've escaped that place! Congratulations! Now, it's time for you to find and defeat the Bodies! To be continued..."<<endl;
+				  break;
+				  }
+				  case 'B':
+				  cout<<"You choose the left path. You started to walk through it. Minutes later, you reached the end of the path. It is a room without a door. Leaving you no choice,you enter in that room. After walking through the darkness, you found out that it isn't a room. It is a passageway going to the outside of that building."<<endl;
+				  cout<<"The darkness reflected before is caused by the absence of sunlight. It is already evening and there is no sources of light except the bright moon and the starts. You've escaped that place! Congratulations! Now, it's time for you to find and defeat the Bodies! To be continued..."<<endl;
+				  break;
+		  }
+		  case 'B':
+		  cout<<"You ignore the hammer. You've noticed that the door of that cell is unlocked. It is an opportunity for you to escape. You open the door carefully without creating noise and went outside. You almost cry in fear when a dead body lying on the floor welcomes you outside of that cell. You are scared and very shocked but you chose to ignore that feeling. What will you do next?"<<endl;
+		  cout<<""<<endl;
+		  cout<<"A.Examine the dead body."<<endl;
+		  cout<<"B. Run away from the dead body."<<endl;
+		  break;
+		  
+		  char choice6;
+		  cin>>choice6;
+		  cout<<choice6;
+		  
+		  switch(choice6){
+		  	case 'A':
+			  cout<<"You examine the dead body. It is an old man which you think ages from 50 to 60 years old. You found a key on his right hand. You get the key and walked away from that place. You end up in a staircase and climb up in there. That staircase leads you to an empty hallway. There are two doors found in there. The doors have labels on it namely, 002 and 003. Which door will you choose?"<<endl;
+			  cout<<""<<endl;
+			  cout<<"A. 002"<<endl;
+			  cout<<"B. 003"<<endl;
+			  break;
+			  
+			  char choice7;
+			  cin>>choice7;
+			  cout<<choice7;
+			  
+			  switch(choice7){
+			  	case 'A':
+				  cout<<"You choose the 002 door, opened it and get inside. There is a stair going down at the corner of that room. You climbed down that stair and you are surprised that it leads you to the outside of that building. You ehurriedly walk in there and now you're in an empty road. No one is around and no cars are passing by. It seems that you've escaped that place! Congratulations! Now, it's time for you to find and defeat the Bodies! To be continued..."<<endl;
+				  break;
+				  case 'B':
+				  cout<<"You open the 003 door. It leads you to a forest. A forest inside a room? No. It seems that you're not in that place anymore. You are outside now. You scan the whole building from where you're standing. It is an abandoned hospital. So you've escaped that place! Congratulations! Now, it's time for you to find and defeat the Bodies! To be continued..."<<endl;
+				  break;
+			  }
+			  case 'B':
+			  cout<<"You ran away from the dead body. Minutes passed of running so long, you reached the end of the path. It is a room without a door. Leaving you no choice,you enter in that room. After walking through the darkness, you found out that it isn't a room. It is a passageway going to the outside of that building."<<endl;
+			  cout<<"The darkness reflected before is caused by the absence of sunlight. It is already evening and there is no sources of light except the bright moon and the starts. You've escaped that place! Congratulations! Now, it's time for you to find and defeat the Bodies! To be continued..."<<endl;
+		  }
+		  }
+		  default:
+		  cout<<"Invalid answer!"<<endl;
+	  }
+	  
+	return 0;
+}
